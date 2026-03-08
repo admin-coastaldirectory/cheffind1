@@ -1,0 +1,28 @@
+# robots.txt for ChefFind — culinarycreators.com
+# The World's Culinary Creator Directory
+
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /?admin
+Disallow: /#admin
+
+# Allow all search engines to crawl all content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Sitemap location
+Sitemap: https://culinarycreators.com/sitemap.xml
+
+# Host
+Host: culinarycreators.com
